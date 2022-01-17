@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="ReggresionTesting">
+
+
+<parameter name="webURL" value="https://www.homedepot.com"></parameter>
+<parameter name="uEmail" value="whatever@gmail.com"></parameter>
+<parameter name="uPass" value="Abcd12345"></parameter>
+<parameter name="uZip" value="12345"></parameter>
+<parameter name="uPhone" value="1234567890"></parameter>
+	<test name="Test_1">
+		<classes>
+			<class name="part_5_A.A1_HomeDepotTest"></class>
+		</classes>
+	</test>
+</suite>

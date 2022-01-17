@@ -1,0 +1,12 @@
+origin button - //button[@aria-label='Leaving from']
+dest button - //button[@aria-label='Going to']
+
+
+
+flights tab - (//*[@class='uitk-tab-text'])[2]
+origin - //*[@id='location-field-leg1-origin']
+dest - //*[@id='location-field-leg1-destination']
+
+
+
+//*[@class='uitk-flex uitk-flex-align-content-center uitk-flex-justify-content-center uitk-spacing uitk-typeahead-empty-state uitk-spacing-margin-block-six']
